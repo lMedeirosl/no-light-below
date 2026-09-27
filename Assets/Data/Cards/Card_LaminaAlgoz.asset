@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd277325f6ef87fbb820968404379e6, type: 3}
+  m_Name: Card_LaminaAlgoz
+  m_EditorClassIdentifier: Assembly-CSharp::NoLightBelow.Cards.CardData
+  CardId: Card_LaminaAlgoz
+  CardTitle: "L\xE2mina do Algoz"
+  Description: 
+  LoreQuote: "O fio irregular dessa l\xE2mina se alimenta do menor deslize do oponente."
+  Rarity: 0
+  Category: 0
+  Artwork: {fileID: 0}
+  CustomFrame: {fileID: 0}
+  Modifiers:
+  - TargetStat: 3
+    FlatValue: 0
+    PercentMultiplier: 0.22
+  TriggersBleedOnHit: 1
+  BleedChance: 0.35
+  BleedDamagePerSecond: 5
+  TriggersLifestealOnHit: 0
+  LifestealPercent: 0
+  ShockwaveOnDodge: 0
+  ShockwaveDamage: 15
+  ShockwaveRadius: 3.5
+  BonusDamageOnLowHealth: 0
+  LowHealthThreshold: 0.35
+  LowHealthDamageMultiplier: 1.4

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd277325f6ef87fbb820968404379e6, type: 3}
+  m_Name: Card_PassoEspectral
+  m_EditorClassIdentifier: Assembly-CSharp::NoLightBelow.Cards.CardData
+  CardId: Card_PassoEspectral
+  CardTitle: Passo Espectral
+  Description: 
+  LoreQuote: "A dungeon sussurra nos seus ouvidos que esquivar \xE9 escapar do destino."
+  Rarity: 1
+  Category: 2
+  Artwork: {fileID: 0}
+  CustomFrame: {fileID: 0}
+  Modifiers:
+  - TargetStat: 2
+    FlatValue: 0
+    PercentMultiplier: 0.18
+  - TargetStat: 4
+    FlatValue: 0
+    PercentMultiplier: 0.25
+  TriggersBleedOnHit: 0
+  BleedChance: 0
+  BleedDamagePerSecond: 5
+  TriggersLifestealOnHit: 0
+  LifestealPercent: 0
+  ShockwaveOnDodge: 1
+  ShockwaveDamage: 15
+  ShockwaveRadius: 3.5
+  BonusDamageOnLowHealth: 0
+  LowHealthThreshold: 0.35
+  LowHealthDamageMultiplier: 1.4
